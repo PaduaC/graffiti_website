@@ -115,11 +115,14 @@ ul li a:hover {
   color: ivory;
 }
 
-.gallery-grid {
+.gallery-container {
   background: #16191C;
-  display: grid;
   height: 65vh;
   color: ivory;
+}
+
+.gallery-grid {
+  display: grid;
 }
 
 #image {
