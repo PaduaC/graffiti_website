@@ -83,6 +83,26 @@ ul li a:hover {
   margin: 0 0 15px 0;
 }
 
+.landing-container2 {
+  background: url("https://streetart102.files.wordpress.com/2015/08/wp.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  display: grid;
+  align-content: center;
+  margin: auto;
+  text-align: center;
+  height: 70vh;
+  color: ivory;
+  text-shadow: 1px 2px 2px black;
+}
+.landing-container2 header {
+  font-weight: bold;
+  font-size: 3em;
+  padding: 0 0 15px 0;
+  margin: 0 0 15px 0;
+}
+
 .section-container {
   background: #16191C;
   display: grid;
@@ -91,6 +111,13 @@ ul li a:hover {
   padding-left: 25px;
   padding-right: 25px;
   text-align: center;
+  height: 65vh;
+  color: ivory;
+}
+
+.gallery-grid {
+  background: #16191C;
+  display: grid;
   height: 65vh;
   color: ivory;
 }
