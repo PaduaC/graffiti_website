@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+html, body {
+  height: auto;
+  width: 100%;
+  margin: 0;
+  font-family: "Space Mono", sans-serif;
+}
+
+.toggle {
+  position: fixed;
+  top: 40px;
+  left: 40px;
+  z-index: 2;
+}
+.toggle a {
+  text-decoration: none;
+  color: ivory;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(50, 153, 255, 0.95);
+  z-index: 1;
+  transition: 0.5s;
+  color: ivory;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  padding: 10px;
+  display: inline-block;
+  font-family: "Space Mono", sans-serif;
+  font-size: 2em;
+  text-decoration: none;
+  text-transform: lowercase;
+  color: ivory;
+}
+ul li a:hover {
+  background: #FFFC85;
+}
+
+.menu.active {
+  left: 0;
+  overflow: auto;
+}
+
+.landing-container {
+  background: url("https://streetart102.files.wordpress.com/2015/08/wp.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  display: grid;
+  align-content: center;
+  margin: auto;
+  text-align: center;
+  height: 100vh;
+  color: ivory;
+  text-shadow: 1px 2px 2px black;
+}
+.landing-container header {
+  font-weight: bold;
+  font-size: 3em;
+  padding: 0 0 15px 0;
+  margin: 0 0 15px 0;
+}
+
+.section-container {
+  background: #16191C;
+  display: grid;
+  align-content: center;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+  height: 65vh;
+  color: ivory;
+}
+
+#image {
+  background: url("https://www.gannett-cdn.com/presto/2020/02/13/PNJM/21a186c4-5101-4196-a229-19ef8851d81b-021220_StreetArt_0208.JPG?width=2560");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.footer-container {
+  background: #16191C;
+  display: grid;
+  align-content: center;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+  height: 10vh;
+  color: ivory;
+}
+.footer-container a {
+  padding: 0 15px 0 15px;
+}
+.footer-container a:hover {
+  background: #FFFC85;
+}
+
+/*# sourceMappingURL=style.css.map */
