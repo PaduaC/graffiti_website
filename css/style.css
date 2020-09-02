@@ -58,6 +58,10 @@ ul li a:hover {
   background: #FFFC85;
 }
 
+.selected {
+  font-weight: bold;
+}
+
 .menu.active {
   left: 0;
   overflow: auto;
