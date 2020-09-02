@@ -128,6 +128,12 @@ ul li a:hover {
   grid-gap: 15px;
 }
 
+.gallery-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 #image {
   background: url("https://www.gannett-cdn.com/presto/2020/02/13/PNJM/21a186c4-5101-4196-a229-19ef8851d81b-021220_StreetArt_0208.JPG?width=2560");
   background-size: cover;
