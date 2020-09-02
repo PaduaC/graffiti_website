@@ -169,8 +169,11 @@ ul li a:hover {
   padding-left: 25px;
   padding-right: 25px;
   text-align: center;
-  height: 10vh;
+  height: 15vh;
   color: ivory;
+}
+.footer-container span {
+  padding-right: 15px;
 }
 .footer-container a {
   padding: 0 15px 0 15px;
