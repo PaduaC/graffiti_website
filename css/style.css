@@ -123,6 +123,9 @@ ul li a:hover {
 
 .gallery-grid {
   display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 15px;
 }
 
 #image {
