@@ -132,61 +132,31 @@ ul li a:hover {
 .flex-container {
   background: #16191c;
   height: 100%;
-  padding: 0;
-  text-align: center;
-  margin: auto;
+  display: flex;
   color: ivory;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 .flex-container h2 {
   text-align: center;
-  padding: 2em auto;
-  margin: 2em auto;
-}
-.flex-container .flex-row {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
 }
 .flex-container .flex-row .flex-item {
-  padding: 0;
-  margin: 0;
+  height: 500px;
+  width: 500px;
+}
+.flex-container .flex-row img {
+  height: 400px;
+  width: 400px;
 }
 
 .flex-column {
-  flex: 100%;
-  max-width: 100%;
-  display: flex;
+  flex: 50%;
+  max-width: 50%;
+  display: block;
   padding: 0;
   margin: 2em auto;
 }
 
-/*Responsive layout - 2 columns*/
-@media screen and (max-width: 800px) {
-  .flex-container {
-    height: 100%;
-  }
-
-  .flex-column {
-    flex: 48%;
-    max-width: 50%;
-    height: 100%;
-  }
-}
-@media screen and (max-width: 600px) {
-  .flex-container {
-    height: 100%;
-  }
-
-  .flex-column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
 .gallery-container {
   background: #16191C;
   height: 100%;

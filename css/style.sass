@@ -111,6 +111,67 @@ ul
     height: 65vh
     color: ivory
 
+.section-container2
+    background: #16191C
+    display: grid
+    padding-left: 25px
+    padding-right: 25px
+    text-align: center
+    height: 100%
+    color: ivory
+
+.flex-container
+    background: #16191c
+    height: 100%
+    padding: 0
+    text-align: center
+    margin: auto
+    color: ivory
+
+    h2
+        text-align: center
+        padding: 2em auto
+        margin: 2em auto
+
+    .flex-row
+        width: 100%
+        padding: 0
+        margin: 0
+        display: flex
+        flex-wrap: wrap
+        flex-direction: row
+        justify-content: center
+        align-items: center
+
+        .flex-item
+            padding: 0
+            margin: 0
+
+.flex-column
+    flex: 100%
+    max-width: 100%
+    display: flex
+    padding: 0
+    margin: 2em auto
+
+/*Responsive layout - 2 columns*/
+@media screen and ( max-width:  800px)
+    .flex-container
+        height: 100%
+
+    .flex-column
+        flex: 48%
+        max-width: 50%
+        height: 100%
+
+@media screen and ( max-width:  600px)
+    .flex-container
+        height: 100%
+
+    .flex-column
+        flex: 100%
+        max-width: 100%
+
 .gallery-container
     background: #16191C
     height: 100%
