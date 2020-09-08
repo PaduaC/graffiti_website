@@ -15,8 +15,12 @@ html, body {
 .toggle a {
   text-decoration: none;
   color: ivory;
-  font-size: 24px;
+  font-size: 30px;
   cursor: pointer;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.37);
+}
+.toggle a:hover {
+  color: #ffd885;
 }
 
 .menu {
