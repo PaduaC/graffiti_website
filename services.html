@@ -18,17 +18,29 @@
             <li><a href="gallery.html">Gallery</a></li>
             <li><a href="#">Artists</a></li>
             <li><a href="about.html" class="selected">About</a></li>
-            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Us</a></li>
         </ul>
     </div>
     <div class="landing-container2">
-        <header>Services</header>
+        <header>Contact Us</header>
     </div>
     <div class="section-container">
-        <h2>Contact Us</h2>
+        <h2>Contact Info</h2>
         <form>
-            <input type="text" placeholder="Enter email here..." />
-            <button type="submit">Submit</button>
+            <div class="input-container" id="name">
+                <input id="first-name" type="text" placeholder="First Name" />
+                <input id="last-name" type="text" placeholder="Last Name" />
+            </div>
+            <div class="input-container" id="email">
+                <input type="text" placeholder="Enter email here..." />
+                <input type="tel" name="phone" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" placeholder="Phone number" required />
+            </div>
+            <div class="input-container">
+                <textarea id="text-box" type="text" placeholder="Tell us about your design..."></textarea>
+            </div>
+            <div class="input-container">
+                <button type="submit">Submit</button>
+            </div>
         </form>
     </div>
     <div class="footer-container">
