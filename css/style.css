@@ -264,4 +264,41 @@ ul li a:hover {
   background: #FFFC85;
 }
 
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  margin: 10px 15px;
+  padding: 10px 10px;
+  height: 25px;
+  width: 800px;
+  background-color: rgba(10, 17, 26, 0.27);
+  color: ivory;
+  font-family: "Space Mono", sans-serif;
+  font-size: 16px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+button {
+  margin-left: 20px;
+  height: 40px;
+  width: 80px;
+  display: inline-block;
+  background: transparent;
+  color: ivory;
+  border: 2px solid ivory;
+  border-radius: 6px;
+  transition-duration: 0.4s;
+  font-family: "Space Mono", sans-serif;
+}
+button:hover {
+  background: ivory;
+  color: black;
+}
+
 /*# sourceMappingURL=style.css.map */
