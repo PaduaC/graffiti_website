@@ -298,6 +298,7 @@ textarea {
   border-right: none;
   width: 100%;
   height: 200px;
+  resize: none;
 }
 
 button {
