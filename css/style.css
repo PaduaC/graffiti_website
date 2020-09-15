@@ -15,9 +15,9 @@ html, body {
 .toggle a {
   text-decoration: none;
   color: ivory;
-  font-size: 30px;
+  font-size: 50px;
   cursor: pointer;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.37);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.87);
 }
 .toggle a:hover {
   color: #ffd885;
@@ -72,7 +72,7 @@ ul li a:hover {
 }
 
 .landing-container {
-  background: url("https://streetart102.files.wordpress.com/2015/08/wp.jpg");
+  background: linear-gradient(rgba(0, 39, 66, 0.4), rgba(0, 39, 66, 0.4)), url("https://streetart102.files.wordpress.com/2015/08/wp.jpg");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -86,13 +86,13 @@ ul li a:hover {
 }
 .landing-container header {
   font-weight: bold;
-  font-size: 3em;
+  font-size: 5em;
   padding: 0 0 15px 0;
   margin: 0 0 15px 0;
 }
 
 .landing-container2 {
-  background: url("https://streetart102.files.wordpress.com/2015/08/wp.jpg");
+  background: linear-gradient(rgba(0, 39, 66, 0.4), rgba(0, 39, 66, 0.4)), url("https://streetart102.files.wordpress.com/2015/08/wp.jpg");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -106,7 +106,7 @@ ul li a:hover {
 }
 .landing-container2 header {
   font-weight: bold;
-  font-size: 3em;
+  font-size: 5em;
   padding: 0 0 15px 0;
   margin: 0 0 15px 0;
 }
